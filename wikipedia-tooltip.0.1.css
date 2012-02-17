@@ -1,0 +1,21 @@
+#wiki_container {
+    position:absolute; 
+    display:none; 
+    border:1px solid #B1B1B1 !important;
+	border-radius: 5px;
+    background:#fff;
+    padding:0.5em;
+	z-index:3;
+	width: 400px;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	
+}
+
+.wikihover{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	cursor:help;
+	text-decoration:none;
+	border-bottom:1px dotted #663300;
+}

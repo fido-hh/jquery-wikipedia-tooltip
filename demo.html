@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+<meta charset="UTF-8" />
+<title>Wikipedia-tooltip for jQuery | Finn Dorby Webapplikationen</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://finndorby.com/wp-content/themes/russianlux/style.css" />
+<link rel='stylesheet' id='Lobster-css'  href='http://fonts.googleapis.com/css?family=Lobster&#038;subset=latin%2Ccyrillic-ext&#038;ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='OpenSans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300&#038;subset=latin%2Ccyrillic-ext&#038;ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script type='text/javascript' src='wikipedia-tooltip.0.1.js'></script>
+<link rel="stylesheet" type="text/css" media="all" href="wikipedia-tooltip.0.1.css" />
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.wikihover').wiki_tooltip();
+  });
+</script>
+</head>
+<body>
+<div id="header_bg">
+  <header>
+    <div class="header-top"></div>
+    <div class="container_12">
+      <div class="grid_12">
+        <div class="extra-wrap">
+          <h1><a href="http://finndorby.com"> <strong> Finn Dorby Webapplikationen </strong> </a> <i>code is poetry</i> </h1>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </header>
+</div>
+<section id="content">
+<div class="container_12 clearfix top35">
+<div class="grid_9">
+  <h2 class="bottom15">&nbsp;</h2>
+  <div class="post single-post">
+    <h2 class="bottom5">Wikipedia-tooltip for jQuery</h2>
+    <div class="marg-right30">
+      <p><b>jQuery plugin: Wikipedia-tooltip</b></p>
+      <p>Current version: 0.1 <br />
+        License: MIT/GPL</p>
+      <p>Dependencies:<br />
+        jQuery (tested with version 1.7.1)<br />
+      </p>
+      <p>Demo:<br />
+      <abbr class="wikihover" rel="mySQL">mySQL (hover over me)</abbr><br>
+      <abbr class="wikihover" rel="Albert Einstein">Albert Einstein (hover over me)</abbr>
+      
+      </p>
+      <p>Code</p>
+      <pre class="brush: html; auto-links: false;">
+&lt;head&gt;
+&lt;script type=&#039;text/javascript&#039;
+src=&#039;http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&#039;&gt;&lt;/script&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;js/wikipedia-tooltip.0.1.js&#039;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;js/wikipedia-tooltip.0.1.css&quot; /&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(document).ready(function(){
+  $(&#039;.wikihover&#039;).wiki_tooltip({wiki_lang : &#039;en&#039;});
+  });
+  &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;<br>&lt;abbr class=&quot;wikihover&quot; rel=&quot;mySQL&quot;&gt;mySQL (hover over me)&lt;/abbr&gt;&lt;br&gt;&lt;br&gt;<br>&lt;abbr class=&quot;wikihover&quot; rel=&quot;Albert Einstein&quot;&gt;Albert Einstein (hover over me)&lt;/abbr&gt;
+&lt;/body&gt;
+</pre>
+      <p>&nbsp;</p>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<div class="clear"></div>
+</body>
+</html>
